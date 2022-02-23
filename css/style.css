@@ -1,0 +1,148 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+/* font-family:'Roboto', sans-serif; */
+
+* {
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background: linear-gradient(to left, #159957, #155799);
+}
+/* Navbar color fondo */
+.navbar {
+  background: linear-gradient(150deg, #155799, #00c298, #f10271);
+  background-size: 400% 300%;
+  animation: multicolores 10s ease infinite;
+}
+
+@keyframes multicolores {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+/* Noticias */
+.section_noticias {
+  background-color: rgb(7, 116, 7);
+}
+
+footer {
+  background-color: rgb(9, 93, 9);
+}
+
+.cinta_separadora {
+  background-color: rgb(9, 93, 9);
+  background-image: repeating-linear-gradient(
+    135deg,
+    transparent,
+    transparent 25px,
+    rgb(12, 144, 12) 25px,
+    rgb(12, 144, 12) 40px
+  );
+}
+.cinta_separadora::after {
+  content: "";
+  background-color: transparent;
+  display: block;
+  height: 50px;
+  width: 50%;
+  margin: 0 auto;
+  position: relative;
+  left: auto;
+  margin-top: -40px;
+}
+
+.cinta_centro {
+  background-color: rgb(9, 93, 9);
+  position: relative;
+  margin-top: -20px;
+  z-index: 10;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5rem;
+}
+
+.cinta_centro img {
+  position: relative;
+  margin-top: -50px;
+}
+
+
+
+
+.separador {
+  width: 100%;
+  overflow: hidden;
+}
+
+/* contenido index  */
+.contenido {
+  width: 150%;
+  background-color: rgb(12, 144, 12);
+  height: 80px;
+  border-bottom-left-radius: 60%;
+  border-bottom-right-radius: 60%;
+  margin-left: -20%;
+}
+/* Noticias index */
+.border_card {
+  border: solid 10px rgb(9, 93, 9);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+}
+
+.border_card:hover {
+  transform: scale(1.08);
+}
+/* temporadas index */
+
+.border_card_temporadas {
+  border: solid 10px rgb(7, 116, 7);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+}
+.border_card_temporadas:hover {
+  transform: scale(1.08);
+}
+
+
+/* Footer */
+#footer {
+  background-color: rgb(7, 116, 7);
+}
+
+.imagen_footer {
+  border: solid 10px rgb(9, 93, 9);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.imagen_footer:hover {
+  width: 35%;
+}
+/*  Web Galeria */
+
+.border_galeria {
+  border: solid 5px rgb(235, 238, 235);
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+}
+
+.border_galeria:hover {
+  transform: scale(1.5);
+}
+/* Web Temporadas  */
+.border_card_temporadas_web {
+  border: solid 5px rgb(7, 116, 7);
+
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all ease-out 0.9s;
+}
