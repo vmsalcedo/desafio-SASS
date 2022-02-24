@@ -32,23 +32,13 @@ footer .imagen_footer:hover {
 /* BODY */
 body {
   background: linear-gradient(to left, #159957, #155799);
+  font-family: "Roboto", sans-serif;
 }
 
 /*CINTA SEPARADORA*/
 .cinta_separadora {
   background-color: #095d09;
   background-image: repeating-linear-gradient(135deg, transparent, transparent 25px, #0c900c 25px, #0c900c 40px);
-}
-.cinta_separadora :after {
-  content: "";
-  background-color: transparent;
-  display: block;
-  height: 50px;
-  width: 50%;
-  margin: 0 auto;
-  position: relative;
-  left: auto;
-  margin-top: -40px;
 }
 .cinta_separadora .cinta_centro {
   background-color: #095d09;

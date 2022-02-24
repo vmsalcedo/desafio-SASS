@@ -5,8 +5,8 @@
 /* BODY */
 body{
     background: $bg-gradiente;
+    font-family: $texto-principal;
 }
-
 
 /*CINTA SEPARADORA*/
  .cinta_separadora {
@@ -17,18 +17,6 @@ body{
     transparent 25px,
     rgb(12, 144, 12) 25px,
     rgb(12, 144, 12) 40px);
-
-        & :after {
-        content: "";
-        background-color: transparent;
-        display: block;
-        height: 50px;
-        width: 50%;
-        margin: 0 auto;
-        position: relative;
-        left: auto;
-        margin-top: -40px;
-        }
 
         .cinta_centro {
              background-color: rgb(9, 93, 9);
@@ -42,9 +30,7 @@ body{
                position: relative;
                margin-top: -50px;
              }
-      }
-
-    
+      } 
  }
 
 /* NOTICIAS INDEX*/
@@ -64,7 +50,6 @@ body{
       }
 }
 
-
 /*TEMPORADAS INDEX*/
 
 .border_card_temporadas {
@@ -75,7 +60,7 @@ body{
             &:hover {
             transform: scale(1.08);
             }          
-        }       
+}       
 
 
 
